@@ -17,7 +17,7 @@ file_handler = logging.FileHandler("log_file.log",
 stream_handler = logging.StreamHandler()
 
 # nustatom zinuciu formata per spec objekta
-formatter = logging.Formatter("Thread id is %(thread)d and the path name of the log %(pathname)s ||\n"
+formatter = logging.Formatter("Not a Thread id is %(thread)d and the path name of the log %(pathname)s ||\n"
                               "You can find it in this module -> %(module)s ||\n"
                               "The numeric loging level for mes is ->>> %(levelno)s and its %(levelname)s ||\n"
                               "The message is %(message)s"
