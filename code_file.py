@@ -24,6 +24,7 @@ formatter = logging.Formatter("Thread id is %(thread)d and the path name of the 
                               "You can find it in this module -> %(module)s ||\n"
                               "The numeric loging level for mes is -> %(levelno)s and its %(levelname)s ||\n"
                               "The message is ->>> %(message)s"
+                              "Changes made on git"
                               "\n")
 
 # nustatom formatus handleriam
