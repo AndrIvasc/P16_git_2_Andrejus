@@ -21,6 +21,7 @@ formatter = logging.Formatter("Not a Thread id is %(thread)d and the path name o
                               "You can find it in this module -> %(module)s ||\n"
                               "The numeric loging level for mes is ->>> %(levelno)s and its %(levelname)s ||\n"
                               "The message is %(message)s"
+                              "New message"
                               "\n")
 
 # nustatom formatus handleriam
